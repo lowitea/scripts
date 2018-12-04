@@ -1,4 +1,7 @@
 #!/bin/bash
+# test response time.
+# run: ./resp_time.sh [url] [count response]
+# example: ./resp_time.sh google.com 5
 
 if [[ -z $1 ]]; then
     echo "url not found"
