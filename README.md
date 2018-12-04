@@ -4,5 +4,5 @@ This repository is a collection of different scripts for different platforms wri
 
 ## bash
 
-- [git-clean.sh](/lowitea/scripts/blob/master/bash/git-clean.sh) - Git. Remove merget branches.
-- [resp_time.sh](/lowitea/scripts/blob/master/bash/resp_time.sh) - Tests response time by url.
+- [git-clean.sh](/bash/git-clean.sh) - Git. Remove merget branches.
+- [resp_time.sh](/bash/resp_time.sh) - Tests response time by url.
