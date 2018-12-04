@@ -1,5 +1,5 @@
 #!/bin/bash
-# test response time.
+# test response time
 # run: ./resp_time.sh [url] [count response]
 # example: ./resp_time.sh google.com 5
 
