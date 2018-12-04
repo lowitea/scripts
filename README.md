@@ -4,17 +4,17 @@ This repository is a collection of different scripts for different platforms wri
 
 ## bash
 
-### Git
+#### Git
 
 - [git-clean.sh](/bash/git-clean.sh) - Remove merget branches.
 
-### Other
+#### Other
 
 - [resp_time.sh](/bash/resp_time.sh) - Tests response time by url.
 
 ## powershell
 
-### Active Directory
+#### Active Directory
 
 - [adcomputers_in_csv.ps1](/powershell/adcomputers_in_csv.ps1) - Get AD computers in .csv file.
 - [aduser_in_csv.ps1](/powershell/aduser_in_csv.ps1) - Get AD users in .csv file.
