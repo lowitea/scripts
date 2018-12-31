@@ -11,6 +11,7 @@ This repository is a collection of different scripts for different platforms wri
 #### Other
 
 - [resp_time.sh](/bash/resp_time.sh) - Tests response time by url.
+- [firefox_dev_update.sh](/bash/firefox_dev_update.sh) - Update firefox dev version.
 
 ## powershell
 
