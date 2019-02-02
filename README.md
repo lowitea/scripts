@@ -28,3 +28,9 @@ This repository is a collection of different scripts for different platforms wri
 #### Excel
 
 - [excel_joiner.py](/python/excel_joiner.py) - Concatenate excel (.xlsx) files.
+
+## excel
+
+#### formulas
+
+- [generator_passwords.xlsx](/excel/generator_passwords.xlsx) - Password generator for excel via formula.
