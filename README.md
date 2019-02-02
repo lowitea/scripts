@@ -29,6 +29,10 @@ This repository is a collection of different scripts for different platforms wri
 
 - [excel_joiner.py](/python/excel_joiner.py) - Concatenate excel (.xlsx) files.
 
+#### Other
+
+- [filename_to_url.py](/python/filename_to_url.py) - Rename all files in current dir for using in web.
+
 ## excel
 
 #### Formulas
