@@ -1,0 +1,10 @@
+#!/usr/bin/sh
+
+# How To:
+# 1. Move file to <repository>/.git/hooks/                                                                                                                                                                                                                                  
+# 2. Rename to prepare-commit-msg
+# 3. Added execute attribute (chmod +x pre-commit)
+
+NAME=$(git branch | grep '*' | sed 's/* //')
+echo "$NAME": $(cat "$1") > "$1"
+

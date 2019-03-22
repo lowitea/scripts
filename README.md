@@ -6,7 +6,12 @@ This repository is a collection of different scripts for different platforms wri
 
 #### Git
 
-- [git-clean.sh](/bash/git-clean.sh) - Remove merget branches.
+- [git-clean.sh](/bash/git/git-clean.sh) - Remove merget branches.
+
+##### Git Hooks
+
+- [pre-commit.reject_commit_in_develop](/bash/git/hooks/pre-commit.reject_commit_in_develop) - `pre-commit`: Reject commit in develop branch.
+- [prepare-commit-msg.branch_name_in_commit](/bash/git/hooks/prepare-commit-msg.branch_name_in_commit) - `prepare-commit-msg`: Added branch name in commit message.
 
 #### Other
 
@@ -39,3 +44,4 @@ This repository is a collection of different scripts for different platforms wri
 #### Formulas
 
 - [generator_passwords.xlsx](/excel/generator_passwords.xlsx) - Password generator for excel via formula.
+

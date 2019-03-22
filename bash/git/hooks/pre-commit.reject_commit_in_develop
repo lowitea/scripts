@@ -1,0 +1,14 @@
+#!/usr/bin/sh
+
+# How To:
+# 1. Move file to <repository>/.git/hooks/
+# 2. Rename to pre-commit
+# 3. Added execute attribute (chmod +x pre-commit)
+
+branch="$(git rev-parse --abbrev-ref HEAD)"
+
+if [ "$branch" = "develop" ]; then
+          echo "You can't commit directly to develop branch"
+            exit 1
+fi
+
