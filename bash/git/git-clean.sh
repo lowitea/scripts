@@ -1,4 +1,6 @@
 #!/bin/bash
 # Git. Remove merget branches.
 
-git branch --merged | grep -v '*' | grep -v 'develop' | xargs git branch -D  && git reset --hard && git clean -d -x -f
+git branch --merged | grep -v '*' | grep -v 'develop' | xargs git branch -D
+git branch -vv | grep '\[origin/.*: gone\]' | grep -v '*' | grep -v 'develop' | awk '{print $1}' | xargs git branch -D
+
