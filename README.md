@@ -6,7 +6,7 @@ This repository is a collection of different scripts for different platforms wri
 
 #### Git
 
-- [git-clean.sh](/bash/git/git-clean.sh) - Remove merget branches.
+- [git-clean.sh](/bash/git/git-clean.sh) - Remove merged branches.
 
 ##### Git Hooks
 
