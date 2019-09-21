@@ -16,6 +16,7 @@ This repository is a collection of different scripts for different platforms wri
 #### Other
 
 - [resp_time.sh](/bash/resp_time.sh) - Tests response time by url.
+- [downloads_cleaner.sh](/bash/downloads_cleaner.sh) - Deletes files older 15 days from Downloads dir.
 
 ## powershell
 
