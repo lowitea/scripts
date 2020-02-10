@@ -16,7 +16,8 @@ This repository is a collection of different scripts for different platforms wri
 #### Other
 
 - [resp_time.sh](/bash/resp_time.sh) - Tests response time by url.
-- [downloads_cleaner.sh](/bash/downloads_cleaner.sh) - Deletes files older 15 days from Downloads dir.
+- [downloads_cleaner.sh](/bash/downloads_cleaner.sh) - Deletes files older 7 days from Downloads dir.
+- [guake_ssh_links.sh](/bash/guake_ssh_links.sh) - Open ssh:.... html links in guake terminal.
 
 ## powershell
 
@@ -38,6 +39,7 @@ This repository is a collection of different scripts for different platforms wri
 
 - [filename_to_url.py](/python/filename_to_url.py) - Rename all files in current dir for using in web.
 - [email_finder_in_html.py](/python/email_finder_in_html.py) - Find all emails in html file.
+- [timeit_decorator.py](/python/timeit_decorator.py) - Pythonic decorator for profiling a func.
 
 ## sql
 
@@ -48,4 +50,10 @@ This repository is a collection of different scripts for different platforms wri
 #### Formulas
 
 - [generator_passwords.xlsx](/excel/generator_passwords.xlsx) - Password generator for excel via formula.
+
+## TODO
+
+- Base64 converter
+- Timestamp converter 
+- String counter
 
