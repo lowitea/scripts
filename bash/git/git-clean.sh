@@ -1,6 +1,6 @@
 #!/bin/bash
 # Git. Remove merged branches.
 
-git branch --merged | grep -v '*' | grep -v 'develop' | xargs git branch -D
-git branch -vv | grep '\[origin/.*: gone\]' | grep -v '*' | awk '{print $1}' | xargs git branch -D
+LANG=C git branch --merged | egrep -v '\*|develop|master' | xargs -r git branch -D
+LANG=C git branch -vv | grep '\[origin/.*: gone\]' | grep -v '*' | awk '{print $1}' | xargs -r git branch -D
 
