@@ -35,11 +35,13 @@ This repository is a collection of different scripts for different platforms wri
 
 - [excel_joiner.py](/python/excel_joiner.py) - Concatenate excel (.xlsx) files.
 
+## rust
+
+- [sct](/rust/sct) - Symbol counter. 
+
 #### Other
 
 - [filename_to_url.py](/python/filename_to_url.py) - Rename all files in current dir for using in web.
-- [email_finder_in_html.py](/python/email_finder_in_html.py) - Find all emails in html file.
-- [timeit_decorator.py](/python/timeit_decorator.py) - Pythonic decorator for profiling a func.
 
 ## sql
 
@@ -55,5 +57,3 @@ This repository is a collection of different scripts for different platforms wri
 
 - Base64 converter
 - Timestamp converter 
-- String counter
-
