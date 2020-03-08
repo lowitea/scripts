@@ -38,6 +38,7 @@ This repository is a collection of different scripts for different platforms wri
 ## rust
 
 - [sct](/rust/sct) - Symbol counter. 
+- [b64](/rust/b64) - Base64 converter. 
 
 #### Other
 
@@ -55,5 +56,4 @@ This repository is a collection of different scripts for different platforms wri
 
 ## TODO
 
-- Base64 converter
 - Timestamp converter 
