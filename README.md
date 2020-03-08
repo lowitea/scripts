@@ -43,6 +43,7 @@ This repository is a collection of different scripts for different platforms wri
 
 - [sct](/rust/sct) - Symbol counter. 
 - [b64](/rust/b64) - Base64 converter. 
+- [ts](/rust/b64) - Timestamp converter. 
 
 ## sql
 
@@ -53,7 +54,3 @@ This repository is a collection of different scripts for different platforms wri
 #### Formulas
 
 - [generator_passwords.xlsx](/excel/generator_passwords.xlsx) - Password generator for excel via formula.
-
-## TODO
-
-- Timestamp converter 
