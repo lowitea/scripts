@@ -4,7 +4,6 @@
 
 1. Create symlink
     ```bash
-   cp target/release/<BIN_FILE> /usr/bin/
    ln -s $(pwd)/target/release/<BIN_FILE> /usr/bin/<BIN_FILE>
    ```
 
