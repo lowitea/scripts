@@ -54,3 +54,7 @@ This repository is a collection of different scripts for different platforms wri
 #### Formulas
 
 - [generator_passwords.xlsx](/excel/generator_passwords.xlsx) - Password generator for excel via formula.
+
+## ToDo
+
+- Url checker
