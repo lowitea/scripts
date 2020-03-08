@@ -1,10 +1,11 @@
 # Usage
 
-## Copy provide binary to system
+## Create symlink to binary
 
-1. Copy to /usr/bin
+1. Create symlink
     ```bash
    cp target/release/<BIN_FILE> /usr/bin/
+   ln -s $(pwd)/target/release/<BIN_FILE> /usr/bin/<BIN_FILE>
    ```
 
 ## Build
@@ -14,4 +15,4 @@ _Use [Rust](https://www.rust-lang.org/) for build._
     ```bash
     cargo build --release
     ```
-1. Copy binary to system
+1. Create symlink
