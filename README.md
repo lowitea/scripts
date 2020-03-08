@@ -43,7 +43,7 @@ This repository is a collection of different scripts for different platforms wri
 
 - [sct](/rust/sct) - Symbol counter. 
 - [b64](/rust/b64) - Base64 converter. 
-- [ts](/rust/b64) - Timestamp converter. 
+- [ts](/rust/ts) - Timestamp converter. 
 
 ## sql
 
