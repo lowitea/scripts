@@ -1,10 +1,21 @@
 #!/usr/bin/sh
 
 # How To:
-# 1. Move file to <repository>/.git/hooks/                                                                                                                                                                                                                                  
+# 1. Move file to <repository>/.git/hooks/
 # 2. Rename to prepare-commit-msg
 # 3. Added execute attribute (chmod +x pre-commit)
 
 NAME=$(git branch | grep '*' | sed 's/* //')
+COMMIT_MSG=$(cat "$1")
+
+# skip if rebaising
+if [[ $NAME =~ "rebasing" ]]; then
+    exit
+fi
+
+if [[ $COMMIT_MSG =~ "$NAME: " ]]; then
+    exit
+fi
+
 echo "$NAME": $(cat "$1") > "$1"
 
