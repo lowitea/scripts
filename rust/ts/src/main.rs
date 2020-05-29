@@ -1,3 +1,6 @@
+//! ToDo: добавить таблицу с константными значениями дня, недели, месяца и тд
+
+
 use std::process;
 
 use chrono::{Local, TimeZone};
