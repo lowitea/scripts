@@ -1,6 +1,5 @@
-//! ToDo: поправить подсчёт количества русских букв
-
 use clap::Clap;
+use unicode_segmentation::UnicodeSegmentation;
 
 #[derive(Clap)]
 #[clap()]
@@ -11,5 +10,5 @@ struct Opts {
 fn main() {
     let opts: Opts = Opts::parse();
 
-    println!("{}", opts.string.len())
+    println!("{}", opts.string.graphemes(true).count())
 }

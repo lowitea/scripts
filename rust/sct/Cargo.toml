@@ -1,6 +1,6 @@
 [package]
 name = "sct"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["lowit <ea@lowit.ru>"]
 edition = "2018"
 
@@ -8,3 +8,7 @@ edition = "2018"
 
 [dependencies]
 clap = { git = "https://github.com/clap-rs/clap/" }
+unicode-segmentation = "1.6.0"
+
+[dev-dependencies]
+rstest = "0.6.4"
