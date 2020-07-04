@@ -1,6 +1,6 @@
 [package]
 name = "ts"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["lowit <ea@lowit.ru>"]
 edition = "2018"
 
@@ -8,4 +8,7 @@ edition = "2018"
 
 [dependencies]
 clap = { git = "https://github.com/clap-rs/clap/" }
-chrono = "0.4.11"
+chrono = "0.4.12"
+
+[dev-dependencies]
+rstest = "0.6.4"
