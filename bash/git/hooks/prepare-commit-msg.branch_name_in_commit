@@ -13,6 +13,11 @@ if [[ $NAME =~ "rebasing" ]]; then
     exit
 fi
 
+# skip if branch name is empty
+if [[ -z $NAME ]]; then
+    exit
+fi
+
 if [[ $COMMIT_MSG =~ "$NAME: " ]]; then
     exit
 fi
