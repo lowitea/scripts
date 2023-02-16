@@ -22,5 +22,5 @@ if [[ $COMMIT_MSG =~ "$NAME: " ]]; then
     exit
 fi
 
-sed -i "1s/^/$NAME: /" $1
+sed -i "1s,^,$NAME: ," $1
 
