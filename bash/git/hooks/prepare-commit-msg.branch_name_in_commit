@@ -18,6 +18,8 @@ if [[ -z $NAME ]]; then
     exit
 fi
 
+NAME=$(echo $NAME | cut -f1 -d -)
+
 if [[ $COMMIT_MSG =~ "$NAME: " ]]; then
     exit
 fi
